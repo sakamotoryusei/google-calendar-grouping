@@ -1,0 +1,26 @@
+{
+  "name": "Googleカレンダーグルーピング",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Googleカレンダーに表示されるユーザーをグループピングし、まとめてすばやく切り替えます。",
+  "permissions": ["declarativeContent","activeTab"],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  }
+}

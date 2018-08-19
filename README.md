@@ -1,6 +1,8 @@
 # これはなに？
 - Googleカレンダーに表示される複数のカレンダーをグループにまとめ、ワンクリックで表示/切り替えができるGoogle Chrome拡張です
 
+<image src="https://raw.githubusercontent.com/tenkiame/google-calendar-grouping/images/screenshot.png" width="400px">
+
 # 使い方
 1. ソースをダウンロードして適当な場所に保管
 2. `groups.js`を修正し、グループを作成
